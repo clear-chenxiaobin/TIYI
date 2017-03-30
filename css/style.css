@@ -185,7 +185,7 @@ a.btn-custom{
 }
 .navbar-brand > img{
 	margin-top:10px;
-	height:30px;
+	height:60px;
 }
 .navbar-nav > li > a{
 	text-decoration:none;
@@ -222,6 +222,7 @@ body.scrolled .navbar{
 }
 .navbar-brand > .logo-dark{
 	display:none;
+	height: 30px;
 }
 body.scrolled .navbar-brand > .logo-dark{
 	display:block;
@@ -1049,6 +1050,10 @@ footer p{
 }
 .footer-social a:hover{
 	color:#FFF;
+}
+
+.home-banner-img > img {
+	max-width: 50%;
 }
 
 
