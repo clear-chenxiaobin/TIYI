@@ -3,10 +3,10 @@
 @font-face {
   font-family: "linea";
   src:url("../fonts/linea.eot");
-  src:url(http://cimply.co/fonts/linea.eot?#iefixx") format("embedded-opentype"),
+  src:url("../fonts/linea.eot") format("embedded-opentype"),
     url("../fonts/linea.woff") format("woff"),
     url("../fonts/linea.ttf") format("truetype"),
-    url(http://cimply.co/fonts/linea.svg#lineaa") format("svg");
+    url("../fonts/linea.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 

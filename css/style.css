@@ -328,6 +328,18 @@ body.loaded #preloader{
 }
 
 /*========================================================
+	website Section
+========================================================*/
+
+.website-section {
+	padding:110px 0;
+}
+
+.website-section > .container > .section-header > .wow {
+	color: #FFFFFF;
+}
+
+/*========================================================
 	Mockup Section
 ========================================================*/
 .mockup-section{
