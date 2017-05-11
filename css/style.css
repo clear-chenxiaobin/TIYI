@@ -1,6 +1,6 @@
 /*========================================================
 	
-	Author	: 	Noman Ali Samejo
+	Author	: 	Chen Xiaobin
 	
 	Item 	: 	San - Responsive App Landing Template
 	
@@ -49,7 +49,7 @@
 	font-family:inherit;
 }
 body{
-	font-family:'Lato', sans-serif;
+	font-family:'Lato', sans-serif, "Microsoft YaHei", '微软雅黑';
 	overflow-x:hidden;
 }
 .section-header > p,
@@ -159,8 +159,8 @@ a.btn-custom{
 }
 .btn-custom{
 	padding:12px 22px;
-	background:#E0E0E0;
-	color:#202020;
+	background: #7db01a;
+	color: #ffffff;
 	border-radius:3px;
 	display:inline-block;
 	*display:inline;
@@ -169,6 +169,7 @@ a.btn-custom{
 	z-index:5;
 	border:none;
 	transition:all .3s ease;
+	width: 100%;
 }
 
 /*========================================================
@@ -1011,8 +1012,8 @@ textarea.form-control{
 	top:0;
 }
 .contact-form .btn-custom:hover{
-	color:#FFF;
-	background:#202020;
+	color:#202020;
+	background: #e0e0e0;
 }
 .contact-form .btn-custom:active{
 	top:2px;
@@ -1093,6 +1094,10 @@ footer p{
 /* font */
 .font-white {
 	color: #FFFFFF;
+}
+
+.contact-email:hover {
+	color: #7db01a;
 }
 
 /*========================================================
