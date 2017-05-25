@@ -1,6 +1,6 @@
 /*========================================================
 	
-	Author	: 	Noman Ali Samejo
+	Author	: 	Chen Xiaobin
 	
 	Item 	: 	San - Responsive App Landing Template
 	
@@ -49,7 +49,7 @@
 	font-family:inherit;
 }
 body{
-	font-family:'Lato', sans-serif;
+	font-family:'Lato', sans-serif, "Microsoft YaHei", '微软雅黑';
 	overflow-x:hidden;
 }
 .section-header > p,
@@ -81,12 +81,13 @@ img{
 	font-style:italic;
 	letter-spacing:1px;
 }
-a.app-btn{
+a.more-btn{
 	color:#FFF;
 }
-.app-btn{
+.more-btn{
 	position:relative;
-	padding:9px 31px;
+	width: 160px;
+	padding:9px 30px;
 	border-radius:50px;
 	color:#FFF;
 	display:inline-block;
@@ -100,11 +101,11 @@ a.app-btn{
 	top:0;
 	border:solid 2px #FFF;
 }
-.app-btn:hover{
+.more-btn:hover{
 	background:#FFF;
 	color:#202020;
 }
-.app-btn > i{
+.more-btn > i{
 	font-size:20px;
 	vertical-align:middle;
 	margin-right:5px;
@@ -158,8 +159,8 @@ a.btn-custom{
 }
 .btn-custom{
 	padding:12px 22px;
-	background:#E0E0E0;
-	color:#202020;
+	background: #7db01a;
+	color: #ffffff;
 	border-radius:3px;
 	display:inline-block;
 	*display:inline;
@@ -168,6 +169,7 @@ a.btn-custom{
 	z-index:5;
 	border:none;
 	transition:all .3s ease;
+	width: 100%;
 }
 
 /*========================================================
@@ -322,7 +324,7 @@ body.loaded #preloader{
 	margin-top:30px;
 	margin-left:-10px;
 }
-.intro-text .app-btn{
+.intro-text .more-btn{
 	margin:0 10px;
 	margin-bottom:15px;
 }
@@ -331,11 +333,11 @@ body.loaded #preloader{
 	website Section
 ========================================================*/
 
-.website-section {
+.introduce-section {
 	padding:110px 0;
 }
 
-.website-section > .container > .section-header > .wow {
+.introduce-section > .container > .section-header > .wow {
 	color: #FFFFFF;
 }
 
@@ -1010,8 +1012,8 @@ textarea.form-control{
 	top:0;
 }
 .contact-form .btn-custom:hover{
-	color:#FFF;
-	background:#202020;
+	color:#202020;
+	background: #e0e0e0;
 }
 .contact-form .btn-custom:active{
 	top:2px;
@@ -1068,7 +1070,35 @@ footer p{
 	max-width: 50%;
 }
 
+/* margins */
+.marginbot-0{margin-bottom:0 !important;}
+.marginbot-10{margin-bottom:10px !important;}
+.marginbot-20{margin-bottom:20px !important;}
+.marginbot-30{margin-bottom:30px !important;}
+.marginbot-40{margin-bottom:40px !important;}
+.marginbot-50{margin-bottom:50px !important;}
+.marginbot-60{margin-bottom:60px !important;}
+.marginbot-70{margin-bottom:70px !important;}
+.marginbot-80{margin-bottom:80px !important;}
+.marginbot-90{margin-bottom:90px !important;}
+.marginbot-100{margin-bottom:100px !important;}
 
+.margintop-0{margin-top:0 !important;}
+.margintop-10{margin-top:10px !important;}
+.margintop-20{margin-top:20px !important;}
+.margintop-30{margin-top:30px !important;}
+.margintop-40{margin-top:40px !important;}
+.margintop-45{margin-top:45px !important;}
+.margintop-50{margin-top:50px !important;}
+
+/* font */
+.font-white {
+	color: #FFFFFF;
+}
+
+.contact-email:hover {
+	color: #7db01a;
+}
 
 /*========================================================
 	Responsive CSS
@@ -1148,5 +1178,10 @@ footer p{
 	.navbar-collapse{
 		margin-top:10px;
 		border-top-color:rgba(0,0,0,.07);
+	}
+
+	.more-btn {
+		left: 50%;
+		margin-left: -80px !important;
 	}
 }
